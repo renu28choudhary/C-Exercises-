@@ -12,7 +12,6 @@
 
 //     for (int i = 0; i < 5; i++)
 //     {
-
 //         if (c == vowel[i])
 //         {
 //             printf("%c Character is a Vowel \n", c);
