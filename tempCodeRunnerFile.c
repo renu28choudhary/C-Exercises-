@@ -2,15 +2,21 @@
 
 // int main()
 // {
-//     int n;
-//     int sum = 0;
-//     printf("Enter a number: ");
-//     scanf("%d", &n);
+//     int num1, num2, lcm, i, j;
+//     printf("enter two numbers: ");
+//     scanf("%d %d", &num1, &num2);
 
-//     for (int i = 1; i <= n; i++)
+//     for (i = 1; i <= 20; i++)
 //     {
-//         sum = sum + i;
+//         for (j = 1; j <= 20; j++)
+//         {
+//             int result1 = num1 * i;
+//             int result2 = num2 * j;
+//             if (result1 == result2)
+//             {
+//                 printf("%d is multiple of %d and %d \n", result1, num1, num2);
+//                 return result1;
+//             }
+//         }
 //     }
-//     printf("%d is sum of natural number till %d", sum, n);
-//     return 0;
 // }
