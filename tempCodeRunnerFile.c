@@ -1,2 +1,3 @@
-printf("enter a number: ");
-    scanf("%d", &num);
+default:
+    //     printf("not a valid operator");
+    //     break;
