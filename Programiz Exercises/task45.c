@@ -35,10 +35,11 @@ int main()
     }
     for (i = 0; i < n; i++)
     {
-        printf("enter myArray[%.1f]: ", i);
+        printf("enter myArray[%d]: ", i);
         scanf("%f", &myArray[i]);
         sum = sum + myArray[i];
     }
     average = sum / n;
     printf("average= %.1f", average);
+    return 0;
 }
