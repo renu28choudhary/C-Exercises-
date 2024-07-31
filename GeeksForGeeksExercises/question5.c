@@ -18,7 +18,7 @@ int main()
 
     amount = principalAmount * (pow((1 + rate / 100), time));
     compoundInterst = amount - principalAmount;
-    
+
     printf("compound Interst :%f", compoundInterst);
     return 0;
 }
