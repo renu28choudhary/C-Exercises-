@@ -4,12 +4,13 @@
 
 int main()
 {
-    int count;
+    int count = 10;
 
     while (count > 0)
     {
-        printf("%d", count);
+        printf("%d \n", count);
+        count--;
     }
-
+    printf("happy New year !!");
     return 0;
 }
