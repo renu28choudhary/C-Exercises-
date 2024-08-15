@@ -6,9 +6,9 @@
 
 int main()
 {
-    int randomNumber, n, attempts=0;
+    int randomNumber, n, attempts = 0;
     srand(time(NULL));
-    randomNumber =rand() % 20 + 1;
+    randomNumber = rand() % 20 + 1;
     printf("randomNumber: %d \n", randomNumber);
     while (1)
     {
@@ -17,7 +17,7 @@ int main()
         if (randomNumber != n)
         {
             printf("wrong number, Guesss again !!\n");
-            attempts = attempts +1;
+            attempts = attempts + 1;
         }
         else
         {
@@ -25,6 +25,6 @@ int main()
             break;
         }
     }
-    printf("attempts: %d",attempts);
+    printf("attempts: %d", attempts);
     return 0;
 }

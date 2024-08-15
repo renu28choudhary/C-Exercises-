@@ -1,0 +1,7 @@
+// . Write a C program that prompts the user to enter a positive integer and then calculates and prints the sum of the squares of each digit in that number using a do-while loop
+
+#include<stdio.h>
+
+int main(){
+    
+}
